@@ -1,0 +1,11 @@
+{
+  "name": "igniting-the-application",
+  "version": "1.0.0",
+  "description": "Basics of react",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Prathamesh Pendal",
+  "license": "ISC"
+}
