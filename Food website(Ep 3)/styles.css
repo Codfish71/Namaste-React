@@ -1,0 +1,83 @@
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  width: 100%;
+}
+
+.brand {
+  width: 70px;
+  height: 70px;
+  padding: 20px;
+}
+.nav-items > ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-items > ul > a {
+  padding: 20px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.search-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.searchBar {
+  border-radius: 20px;
+  text-align: center;
+  height: 50px;
+  width: 40%;
+  margin: 2%;
+}
+.search-button {
+  height: 50px;
+  width: 20%;
+  border-radius: 20px;
+  background-color: cadetblue;
+  margin: 2%;
+}
+
+.restaurant-card {
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.restaurant-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px;
+}
+
+.restaurant-image {
+  width:240px;
+  padding: 5px;
+}
+
+.first-line {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.second-line {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.restaurant-rating {
+  background-color: green;
+  border-radius: 2px;
+  height: 25px;
+}
